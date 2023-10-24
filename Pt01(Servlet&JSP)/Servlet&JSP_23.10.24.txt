@@ -1,0 +1,13 @@
+Servlet&JSP_23.10.24
+
+Ctrl + F11(밑에 단계를 자동으로 테스트해 줌)
+-----------------------------------------
+1. tomcat 시작
+2. 브라우저가 tomcat에게 test.html 요청
+3. tomcat이 찾은 test.html을 브라우저에 응답
+4. 브라우저는 받은 test.html을 분석해서 실행
+
+<Dynamic 프로젝트 jar 파일 위치>
+Webcontent
+WEB-INF
+lib 안에 넣기
