@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body {
+		background: lightblue;
+	}
+	
+	* {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	.left {
+		width: 120px;
+		background: skyblue;
+	}
+	
+	#bottom {
+		background: blue;
+	}
+	
+	input {
+		background: greenyellow;
+	}
+	
+	textarea {
+		background: greenyellow;
+	}
+</style>
+</head>
+<body>
+	<h3>상품수정 화면입니다.</h3>
+	<hr color="red">
+	<a href="index.html">첫 페이지로 이동</a><br>
+	<a href="product.html">상품정보 페이지로 이동</a>
+	
+	<form action="update3.jsp">
+		<table border = 1 align = center>
+			<tr>	<!-- 가로 한 줄 -->
+				<td class="left">상품 번호: </td>	<!-- 칸 하나 -->
+				<td>
+					<input name="id">
+				</td>
+			</tr>
+			<tr>	<!-- 가로 한 줄 -->
+				<td colspan="2" id="bottom">
+					<button type="submit">상품수정요청</button>
+					<!-- form 안에 버튼은 type을 쓰지 않아도 전송용 버튼 -->
+				</td>	<!-- 칸 하나 -->
+				
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

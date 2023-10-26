@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	/* css를 이용해서 스타일 지정 ==> body 선택해서 스타일 지정 */
+	/* 태그, id, class를 이용해서 선택할 수 있다.*/
+	body {
+		background: lime;
+	}
+	
+	* {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	button {
+		width: 100px;
+		height: 30px;
+		color: blue;
+		background: pink;
+	}
+	
+	td {
+		background: lightblue;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h3>회원정보 페이지</h3>
+	<hr color="blue">
+	<a href="index.html">첫 페이지로 이동</a>
+	<table border = 1 align=center>
+		<tr>	<!-- 가로 한 줄 -->
+			<td>회원가입</td>	<!-- 칸 하나 -->
+			<td>
+				<a href="insert.html">
+					<button>GO</button>
+				</a>
+			</td>
+		</tr>
+		<tr>	<!-- 가로 한 줄 -->
+			<td>회원탈퇴</td>	<!-- 칸 하나 -->
+			<td>
+				<a href="delete.html">
+					<button>GO</button>
+				</a>
+			</td>
+		</tr>
+		<tr>	<!-- 가로 한 줄 -->
+			<td>회원수정</td>	<!-- 칸 하나 -->
+			<td>
+				<a href="update.html">
+					<button>GO</button>
+				</a>
+			</td>
+		</tr>
+		<tr>	<!-- 가로 한 줄 -->
+			<td>회원검색(한 명)</td>	<!-- 칸 하나 -->
+			<td>
+				<a href="one.html">
+					<button>GO</button>
+				</a>
+			</td>
+		</tr>
+		<tr>	<!-- 가로 한 줄 -->
+			<td>회원검색(여러 명)</td>	<!-- 칸 하나 -->
+			<td>
+				<a href="list.jsp">
+					<button>GO</button>
+				</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
