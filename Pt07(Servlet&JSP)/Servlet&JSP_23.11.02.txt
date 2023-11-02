@@ -1,0 +1,28 @@
+<Servlet&JSP_23.11.02>
+
+동기식 호출(순서대로 한번에 한번 호출되어 화면이 넘어가는 방식)
+1) a 태그  2) form 태그  3) location.href
+- 특정한 페이지에서 한번에 다음페이지로만 호출
+- 앞페이지에서 클릭이라는 것이 동기가 되어 다음페이지가 호출
+- 차례대로 앞페이지의 클릭을 동기로 하여 뒤페이지를 호출하는 방식
+
+==> 원하는 만큼 서버와 통신을 해서 결과를 받아온 후 화면을 넘기지 않고 그 결과를 한 화면에 넣고 싶은 경우 동기식 호출로는 불가능
+- 비동기식 호출(AJAX)
+
+Quiz
+1. ajax는 무엇의 약자인가?
+- Asynchronous Javascript And XML
+2. ajax의 a는 무슨 의미인가? x는 무엇인가?
+- 비동기, XML(<키>값</키>)
+3. ajax에서 XML대신 사용할 수 있는 것은?
+- JSON
+4. JSON은 무엇의 약자인가?
+- JavaScript Object Notation
+5. ajax에서 반드시 필요한 키 2가지는?
+- {key:value, key:value}, url, success
+6. $ajax() 괄호안에 들어가는 데이터 타입은?
+- JSON, {}
+7. jquery와 javascript와의 관계
+- javascript에서 자주 사용하고 중요한 코드들을 쉽게 쓸 수 있도록 라이브러리로 만들어 놓은 것이 jquery - $("#id") => document.getElementById("id");
+8. ajax는 http 통신이다. (O/X) - O (header + body)
+9. ajax에서 data키는 데이터를 받을 때 사용한다. (O/X) - X (브라우저에서 서버로 데이터를 보낼 때 사용)
